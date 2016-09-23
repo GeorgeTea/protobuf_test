@@ -1,0 +1,11 @@
+syntax = "proto3";
+package test;
+
+option java_package = "com.kingdee.bos.ebservice.prototest";
+option java_outer_classname = "UserProtos";
+
+message User{
+	string name = 1;
+	int32 id = 2;
+	string email = 3;
+}
